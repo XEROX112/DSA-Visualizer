@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Route, Routes } from "react-router-dom";
-import Home from "./Components/home/Home";
-import Sorting from "./Components/sorting/Sorting";
-import Graph from "./Components/graph/Graph";
+import Home from "./Components/Home/Home";
+import Sorting from "./Components/Sorting/Sorting";
+import Graph from "./Components/Graph/Graph";
 import Tree from "./Components/Tree/Tree";
 import EquationSolve from "./Components/EquationSolve/EquationSolve";
 import NQueen from "./Components/N-Queens-Problem/NQueens";
