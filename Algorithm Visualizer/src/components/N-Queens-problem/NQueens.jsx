@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { useState } from "react";
-import Button from "../ui/Button";
+import Button from "../UI/Button";
 import classes from "./NQueens.module.css";
-import { BackButton } from "../ui/BackButton";
+import { BackButton } from "../UI/BackButton";
 import { solveNQueens } from "./getNQueens";
 
 const NQueen = () => {

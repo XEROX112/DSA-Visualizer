@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import classes from "../Tree.module.css";
-import Button from "../../ui/Button";
-import { BackButton } from "../../ui/BackButton";
+import Button from "../../UI/Button";
+import { BackButton } from "../../UI/BackButton";
 import { getpreordertraversal } from "./getPreorderTraversal";
 import TreeNode from "../TreeNode";
 

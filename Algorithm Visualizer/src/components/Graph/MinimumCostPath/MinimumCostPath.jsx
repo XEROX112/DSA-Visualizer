@@ -4,8 +4,8 @@ import {
   minimumCostPath,
 } from "./getMinimumCostPath";
 import classes from "../Graph.module.css";
-import Button from "../../ui/Button";
-import { BackButton } from "../../ui/BackButton";
+import Button from "../../UI/Button";
+import { BackButton } from "../../UI/BackButton";
 import MinimumCostPathNode from "./MinimumCostPathNode";
 
 const MinimumCostPath = () => {

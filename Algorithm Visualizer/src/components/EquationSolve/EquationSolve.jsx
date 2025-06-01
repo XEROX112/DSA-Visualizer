@@ -1,9 +1,9 @@
 import React from "react";
 import { solveEquation } from "./getsolveEquation";
 import { useState } from "react";
-import Button from "../ui/Button";
+import Button from "../UI/Button";
 import classes from "./EquationSolve.module.css";
-import { BackButton } from "../ui/BackButton";
+import { BackButton } from "../UI/BackButton";
 
 const EquationSolve = () => {
   const ANIMATION_SPEED = 500;

@@ -4,8 +4,8 @@ import {
   depthfirstsearch,
 } from "./getDepthFirstSearch";
 import classes from "../Graph.module.css";
-import Button from "../../ui/Button";
-import { BackButton } from "../../ui/BackButton";
+import Button from "../../UI/Button";
+import { BackButton } from "../../UI/BackButton";
 import GraphNode from "../GraphNode";
 
 const DepthFirstSearch = () => {

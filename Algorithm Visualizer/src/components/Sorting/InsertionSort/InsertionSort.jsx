@@ -1,10 +1,10 @@
 import React from "react";
 import classes from "../Sort.module.css";
-import Button from "../../ui/Button";
+import Button from "../../UI/Button";
 import getInsertionSort from "./getInsertionSort";
 import { useState } from "react";
 import { useRef } from "react";
-import { BackButton } from "../../ui/BackButton";
+import { BackButton } from "../../UI/BackButton";
 
 const InsertionSort = () => {
   const ANIMATION_SPEED = 50;

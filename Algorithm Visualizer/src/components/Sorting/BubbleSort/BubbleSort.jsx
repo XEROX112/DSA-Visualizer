@@ -1,10 +1,10 @@
 import React from "react";
 import classes from "../Sort.module.css";
-import Button from "../../ui/Button";
+import Button from "../../UI/Button";
 import getBubbleSort from "./getBubbleSort";
 import { useState } from "react";
 import { useRef } from "react";
-import { BackButton } from "../../ui/BackButton";
+import { BackButton } from "../../UI/BackButton";
 
 const BubbleSort = () => {
   const ANIMATION_SPEED = 50;

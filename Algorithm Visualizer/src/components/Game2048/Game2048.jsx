@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import classes from "./Game2048.module.css";
-import Button from "../ui/Button";
-import { BackButton } from "../ui/BackButton";
+import Button from "../UI/Button";
+import { BackButton } from "../UI/BackButton";
 import Game2048Node from "./Game2048Node";
 import { getGame2048 } from "./getGame2048";
 import Game2048Result from "./Game2048Result";

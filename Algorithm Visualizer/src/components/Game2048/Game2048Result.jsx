@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./Game2048Result.module.css";
-import Button from "../ui/Button";
+import Button from "../UI/Button";
 
 const Game2048Result = ({ result, setResult }) => {
   return (

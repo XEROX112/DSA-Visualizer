@@ -1,10 +1,10 @@
 import React from "react";
 import classes from "../Sort.module.css";
-import Button from "../../ui/Button";
+import Button from "../../UI/Button";
 import { getQuickSortAnimations } from "./getQuickSortAnimations";
 import { useState } from "react";
 import { useRef } from "react";
-import { BackButton } from "../../ui/BackButton";
+import { BackButton } from "../../UI/BackButton";
 
 const QuickSort = () => {
   const ANIMATION_SPEED = 50;
