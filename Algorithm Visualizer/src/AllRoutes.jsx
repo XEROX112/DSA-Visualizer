@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import { Route, Routes } from "react-router-dom";
-import Home from "./Components/Home/Home.jsx";
-import Sorting from "./Components/Sorting/Sorting";
-import Graph from "./Components/Graph/Graph";
-import Tree from "./Components/Tree/Tree";
-import EquationSolve from "./Components/EquationSolve/EquationSolve";
-import NQueen from "./Components/N-Queens-Problem/NQueens";
-import Minesweeper from "./Components/Minesweeper/Minesweeper";
-import Game2048 from "./Components/Game2048/Game2048";
+import Home from "./components/home/Home";
+import Sorting from "./components/Sorting/Sorting";
+import Graph from "./components/Graph/Graph";
+import Tree from "./components/Tree/Tree";
+import EquationSolve from "./components/EquationSolve/EquationSolve";
+import NQueen from "./components/N-Queens-Problem/NQueens";
+import Minesweeper from "./components/Minesweeper/Minesweeper";
+import Game2048 from "./components/Game2048/Game2048";
 
 const routes = [
   { path: "/", Component: Home },
