@@ -5,7 +5,7 @@ import Sorting from "./components/Sorting/Sorting";
 import Graph from "./components/Graph/Graph";
 import Tree from "./components/Tree/Tree";
 import EquationSolve from "./components/EquationSolve/EquationSolve";
-import NQueen from "./components/N-Queens-Problem/NQueens";
+import NQueen from "./components/N-Queens-problem/NQueens";
 import Minesweeper from "./components/Minesweeper/Minesweeper";
 import Game2048 from "./components/Game2048/Game2048";
 
