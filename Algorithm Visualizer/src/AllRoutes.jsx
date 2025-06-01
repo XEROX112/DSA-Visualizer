@@ -16,8 +16,8 @@ const routes = [
   { path: "/tree/:page", Component: Tree },
   { path: "/equationsolve", Component: EquationSolve },
   { path: "/nqueen", Component: NQueen },
-  { path: "/minesweeper", Component: Minesweeper },
-  { path: "/game2048", Component: Game2048 },
+  // { path: "/minesweeper", Component: Minesweeper },
+  // { path: "/game2048", Component: Game2048 },
 ];
 
 export const AllRoutes = () => (
