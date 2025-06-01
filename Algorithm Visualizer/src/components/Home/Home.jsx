@@ -16,12 +16,12 @@ const Home = () => {
       ["/graph/depthfirstsearch", "Depth First Search"],
       ["/graph/minimumcostpath", "Minimum Cost Path"],
     ],
-    // "General Problems": [
-    //   ["/equationsolve", "Equation Solver"],
-    //   ["/nqueen", "N-Queen Problem"],
-    //   ["/minesweeper", "Minesweeper Game"],
-    //   ["/game2048", "2048 Game"],
-    // ],
+    "General Problems": [
+      ["/equationsolve", "Equation Solver"],
+      ["/nqueen", "N-Queen Problem"],
+      ["/minesweeper", "Minesweeper Game"],
+      ["/game2048", "2048 Game"],
+    ],
     "Tree Visualizer": [
       ["/tree/preordertraversal", "Preorder Traversal"],
       ["/tree/inordertranversal", "Inorder Traversal"],

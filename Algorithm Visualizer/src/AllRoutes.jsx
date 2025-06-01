@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Route, Routes } from "react-router-dom";
-import Home from "./components/home/Home";
+import Home from "./components/ome/Home";
 import Sorting from "./components/Sorting/Sorting";
 import Graph from "./components/Graph/Graph";
 import Tree from "./components/Tree/Tree";
@@ -16,8 +16,8 @@ const routes = [
   { path: "/tree/:page", Component: Tree },
   { path: "/equationsolve", Component: EquationSolve },
   { path: "/nqueen", Component: NQueen },
-  // { path: "/minesweeper", Component: Minesweeper },
-  // { path: "/game2048", Component: Game2048 },
+  { path: "/minesweeper", Component: Minesweeper },
+  { path: "/game2048", Component: Game2048 },
 ];
 
 export const AllRoutes = () => (
