@@ -1,11 +1,11 @@
 const getInsertionSort = (array) => {
   const animations = [];
   if (array.length <= 1) return array;
-  selectionSortHelper(array, 0, array.length - 1, animations);
+  InsertionSortHelper(array, 0, array.length - 1, animations);
   return animations;
 };
 
-const selectionSortHelper = (mainArray, startIdx, endIdx, animations) => {
+const InsertionSortHelper = (mainArray, startIdx, endIdx, animations) => {
   for (var i = 1; i <= endIdx; i++) {
     var key = mainArray[i];
     var j = i - 1;

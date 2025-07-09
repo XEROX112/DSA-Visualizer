@@ -2,12 +2,12 @@ const getBubbleSort = (array) => {
   const animations = [];
   console.log(array);
   if (array.length <= 1) return array;
-  selectionSortHelper(array, 0, array.length - 1, animations);
+  BubbleSortHelper(array, 0, array.length - 1, animations);
   console.log(array);
   return animations;
 };
 
-const selectionSortHelper = (mainArray, startIdx, endIdx, animations) => {
+const BubbleSortHelper = (mainArray, startIdx, endIdx, animations) => {
   for (var i = startIdx; i <= endIdx; i++) {
     for (var j = startIdx; j <= endIdx - i; j++) {
       if (mainArray[j] > mainArray[j + 1]) {
