@@ -4,20 +4,12 @@ import Home from "./components/Home/Home";
 import Sorting from "./components/Sorting/Sorting";
 import Graph from "./components/Graph/Graph";
 import Tree from "./components/Tree/Tree";
-import EquationSolve from "./components/EquationSolve/EquationSolve";
-import NQueen from "./components/N-Queens-problem/NQueens";
-import Minesweeper from "./components/Minesweeper/Minesweeper";
-import Game2048 from "./components/Game2048/Game2048";
 
 const routes = [
   { path: "/", Component: Home },
   { path: "/sorting/:page", Component: Sorting },
   { path: "/graph/:page", Component: Graph },
-  { path: "/tree/:page", Component: Tree },
-  { path: "/equationsolve", Component: EquationSolve },
-  { path: "/nqueen", Component: NQueen },
-  { path: "/minesweeper", Component: Minesweeper },
-  { path: "/game2048", Component: Game2048 },
+  { path: "/tree/:page", Component: Tree }
 ];
 
 export const AllRoutes = () => (
